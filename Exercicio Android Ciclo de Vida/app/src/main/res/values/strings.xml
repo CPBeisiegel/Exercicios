@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExercicioApp</string>
+    <string name="texto2">Texto center/left</string>
+    <string name="texto3">Texto bottom/right</string>
+    <string name="texto4">Texto center/top</string>
+    <string name="texto5">Texto bottom</string>
+    <string name="enviar">Enviar</string>
+</resources>

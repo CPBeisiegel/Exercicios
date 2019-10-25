@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:background="@color/colorRosa1"
+        android:textColor="@color/colorText"
+        android:text="Hello World!"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/colorRosa2"
+        android:textColor="@color/colorText"
+        android:text="@string/texto2"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorAzul1"
+        android:text="@string/texto3"
+        android:gravity="bottom|right"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:background="@color/colorRosa1"
+            android:text="@string/texto4"
+            android:textColor="@color/colorText"
+            android:gravity="center|top"
+            />
+
+        <TextView
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAzul2"
+            android:text="@string/texto5"
+            android:textColor="@color/colorText"
+            android:gravity="bottom|center"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonColor"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorText"
+        android:text="@string/enviar"
+        android:id="@+id/buttonPanel"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
